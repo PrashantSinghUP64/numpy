@@ -7,7 +7,7 @@
 
 load("cirrus", "env", "fs", "http")
 
-def main(ctx):
+def main():
     ######################################################################
     # Should wheels be built?
     # Only test on the numpy/numpy repository
